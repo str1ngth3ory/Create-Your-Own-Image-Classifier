@@ -28,3 +28,7 @@ and
 >>> python prediction.py my_images/image.jpg checkpoint_dir/ --top_k 5 --gpu
 ```
 For information on other arguments, call help message with `-h`
+
+**Note**: Available Neural Network architectures are 'VGG' for vgg16,
+'Resnet' for resnet18, 'Alexnet' for alexnet.
+
